@@ -1,0 +1,77 @@
+.navbar-brand {
+  color: green !important;
+} 
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+i {
+  font-size: 35px;
+  cursor: pointer;
+  margin: 0 10px;
+  color: black;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.shopping-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e7e7e7;
+  border-radius: 10px;
+  padding: 3%;
+  margin: 50px 0;
+}
+/* Style pour centrer les produits et ajouter de l'espace */
+      .list-products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+      }
+      /* Style pour la section du prix total*/
+      .total-price {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 20px;
+      }
+      /* Ajoute un curseur pointeur aux icônes interactives*/ 
+      .fa-plus-circle,
+      .fa-minus-circle,
+      .fa-trash-alt,
+      .fa-heart {
+        cursor: pointer;
+        margin: 0 5px; /* Ajoute un peu d'espace autour des icônes*/ 
+      }
+      /* Style pour les icônes d'action*/
+      .quantity-controls,
+      .actions {
+        margin-top: 10px;
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .actions {
+        justify-content: space-around;
+        padding-top: 10px;
+        border-top: 1px solid #eee;
+        margin-top: 15px;
+      }
+      .fa-heart {
+        color: grey;
+      }
+      .fa-heart.liked {
+        color: red; /* Style pour le coeur "aimé"*/ 
+      }
+      .fa-trash-alt {
+          color: #de6b5c;}
